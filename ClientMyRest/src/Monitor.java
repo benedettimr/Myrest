@@ -13,7 +13,9 @@ import javax.swing.JLabel;
 public class Monitor extends JFrame implements ActionListener {
 	public JLabel msg = new JLabel();
 	public Button btnfechar = new Button("Reconhecer Mensagem");
-	
+	/**
+	 * Atualizado 26/06/2013
+	 */
 	public Monitor(){
 
 		Container painel = this.getContentPane(); //captura o painel do JFrame
